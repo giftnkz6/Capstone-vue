@@ -13,6 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: whitesmoke;
+  height: 100%;
+}
+body{
+  height: 100rem;
 }
 
 nav {
@@ -21,10 +26,11 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: blue;
 }
 
 nav a.router-link-exact-active {
   color: #42b983;
 }
+
 </style>
